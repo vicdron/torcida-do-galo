@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="vicdron.com.cantosdogalo.HomeFragment"
+        android:label="Torcida do Galo"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_wallpaper"
+        android:name="vicdron.com.cantosdogalo.WallpaperFragment"
+        android:label="Wallpaper"
+        tools:layout="@layout/fragment_wallpaper" />
+
+    <fragment
+        android:id="@+id/navigation_informacao"
+        android:name="vicdron.com.cantosdogalo.InformacaoFragment"
+        android:label="Sobre"
+        tools:layout="@layout/fragment_informacao" />
+
+    <fragment
+        android:id="@+id/navigation_placar"
+        android:name="vicdron.com.cantosdogalo.PlacarFragment"
+        android:label="Partidas"
+        tools:layout="@layout/fragment_tweets" />
+
+    <fragment
+        android:id="@+id/navigation_tweets"
+        android:name="vicdron.com.cantosdogalo.TweetsFragment"
+        android:label="Tweets"
+        tools:layout="@layout/fragment_tweets" />
+</navigation>

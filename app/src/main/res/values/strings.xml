@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Torcida do Galo</string>
+    <string name="title_home">Cantos</string>
+    <string name="title_dashboard">Tweets</string>
+    <string name="title_notifications">Informação</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    --> ca-app-pub-3940256099942544/6300978111 teste
+</resources>
